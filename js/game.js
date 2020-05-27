@@ -2,11 +2,11 @@
 const canvas = document.querySelector("canvas")
 const ctx = canvas.getContext("2d")
 
-const ground = new Image();
-ground.src = "/img/background.png"
+//const ground = new Image();
+//ground.src = "/img/background.png"
 
 const foodImg = new Image();
-foodImg.src = "/img/food.png"
+foodImg.src = "./img/food.png"
 
 let box = 32;
 let score = 0;
